@@ -8,11 +8,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yourusername/android-debug-bridge-mcp.git"
+    "url": "git+https://github.com/TiagoDanin/Android-Debug-Bridge-MCP.git"
   },
-  "homepage": "https://github.com/yourusername/android-debug-bridge-mcp#readme",
+  "homepage": "https://github.com/TiagoDanin/Android-Debug-Bridge-MCP#readme",
   "bugs": {
-    "url": "https://github.com/yourusername/android-debug-bridge-mcp/issues"
+    "url": "https://github.com/TiagoDanin/Android-Debug-Bridge-MCP/issues"
   },
   "scripts": {
     "build": "tsc",
