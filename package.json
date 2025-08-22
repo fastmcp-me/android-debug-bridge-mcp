@@ -1,6 +1,6 @@
 {
   "name": "android-debug-bridge-mcp",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "MCP plugin to control Android devices via ADB for automation, testing, and agent integration",
   "main": "dist/index.js",
   "files": [
