@@ -47,8 +47,6 @@ or
 claude mcp add --scope project mcp-adb -- npx android-debug-bridge-mcp
 ```
 
-```
-
 ### Cursor
 
 Add to your MCP configuration in Cursor settings:
