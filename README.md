@@ -44,7 +44,7 @@ Add to your MCP configuration in `~/.claude/mcp.json`:
 or 
 
 ```bash
-claude mcp add --scope project mcp-adb -- npx android-debug-bridge-mcp
+claude mcp add --scope project android-debug-bridge-mcp -- npx android-debug-bridge-mcp
 ```
 
 ### Cursor
