@@ -2,6 +2,20 @@
 
 MCP plugin to control Android devices via ADB for automation, testing, and agent integration.
 
+## Features
+
+This MCP server provides tools to:
+
+- **Test Management**: Create test folders for organizing automation tests
+- **App Control**: List installed apps by name pattern and open apps by package name
+- **Screen Capture**: Take screenshots and save them to organized test folders
+- **UI Analysis**: Capture UI hierarchy dumps for element inspection
+- **Input Simulation**: 
+  - Send key events (BACK, HOME, ENTER, DELETE)
+  - Tap at specific coordinates
+  - Input text into active fields
+  - Scroll in any direction (up, down, left, right)
+
 ## Installation
 
 Install the package globally via npm:
@@ -14,7 +28,7 @@ npm install -g android-debug-bridge-mcp
 
 ### Claude Code (CLI)
 
-Add to your MCP configuration in `~/.claude/mcp_servers.json`:
+Add to your MCP configuration in `~/.claude/mcp.json`:
 
 ```json
 {
@@ -25,6 +39,13 @@ Add to your MCP configuration in `~/.claude/mcp_servers.json`:
     }
   }
 }
+
+or 
+
+```bash
+claude mcp add --scope project mcp-adb -- npx android-debug-bridge-mcp
+```
+
 ```
 
 ### Cursor
@@ -62,20 +83,6 @@ Add to your MCP configuration file:
 - Android Debug Bridge (ADB) must be installed and available in your PATH
 - Android device with USB debugging enabled, or Android emulator running
 - Device must be connected and authorized for debugging
-
-## Features
-
-This MCP server provides tools to:
-
-- **Test Management**: Create test folders for organizing automation tests
-- **App Control**: List installed apps by name pattern and open apps by package name
-- **Screen Capture**: Take screenshots and save them to organized test folders
-- **UI Analysis**: Capture UI hierarchy dumps for element inspection
-- **Input Simulation**: 
-  - Send key events (BACK, HOME, ENTER, DELETE)
-  - Tap at specific coordinates
-  - Input text into active fields
-  - Scroll in any direction (up, down, left, right)
 
 ## Usage
 
