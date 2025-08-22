@@ -39,6 +39,7 @@ Add to your MCP configuration in `~/.claude/mcp.json`:
     }
   }
 }
+```
 
 or 
 
